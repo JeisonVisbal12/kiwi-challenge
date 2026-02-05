@@ -1,0 +1,163 @@
+.bottom-cta {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.back-button {
+  border: none;
+  background: none;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.balance-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.balance-label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.balance-amount {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.balance-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.withdraw-btn {
+  background: #043960;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.transaction-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 2px;
+}
+
+.transaction-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: grid;
+  place-items: center;
+  color: #4f46e5;
+  font-size: 16px;
+}
+
+.transaction-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.transaction-date {
+  margin: 2px 0 0 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.amount-positive {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.amount-negative {
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.method-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid #e4e7ec;
+  border-radius: 12px;
+}
+
+.method-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inline-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e4e7ec;
+  margin-bottom: 24px;
+}
+
+.bottom-info {
+  margin-top: auto;
+  margin-bottom: 10;
+}
+
+.loader-ring {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
