@@ -1,10 +1,10 @@
-import { Route, Routes, Navigate } from 'react-router-dom'
-import './App.css'
-import RewardsPage from './features/rewards/pages/RewardsPage'
-import WithdrawSelectPage from './features/rewards/pages/WithdrawSelectPage'
-import WithdrawMethodsPage from './features/rewards/pages/WithdrawMethodsPage'
-import WithdrawConfirmPage from './features/rewards/pages/WithdrawConfirmPage'
-import WithdrawSuccessPage from './features/rewards/pages/WithdrawSuccessPage'
+import { Route, Routes, Navigate } from "react-router-dom";
+import "./App.css";
+import RewardsPage from "./features/rewards/pages/RewardsPage";
+import WithdrawSelectPage from "./features/rewards/pages/WithdrawSelectPage";
+import WithdrawMethodsPage from "./features/rewards/pages/WithdrawMethodsPage";
+import WithdrawConfirmPage from "./features/rewards/pages/WithdrawConfirmPage";
+import WithdrawSuccessPage from "./features/rewards/pages/WithdrawSuccessPage";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
