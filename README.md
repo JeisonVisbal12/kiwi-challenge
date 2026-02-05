@@ -75,6 +75,8 @@ Variable API opcional: `VITE_API_BASE` (ej. http://localhost:3001/api/rewards). 
 - Un único usuario; sin autenticación.
 - Moneda mostrada con prefijo $ (USD).
 - Persistencia en archivo JSON suficiente para la demo.
+- Se agrega boton de input de valor a retirar no especificado.
+- Se unifica los retiros y movimientos como general de los productos del cliente.
 - Sin paginación ni filtros adicionales de transacciones.
 
 ## Artefactos Spec-Kit

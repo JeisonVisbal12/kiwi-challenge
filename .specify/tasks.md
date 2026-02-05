@@ -1,6 +1,7 @@
 # Tasks: Rewards Withdrawal Flow
 
 ## Backlog
+
 - Setup frontend (Vite React, routing, React Query, Poppins, estilos base).
 - Crear componentes reutilizables: BalanceCard, TransactionItem, MethodCard (leading/trailing icons), InfoCard, BackButton.
 - Página Rewards: fetch balance/transactions, agrupar por mes, CTA retirar.
@@ -20,5 +21,7 @@
 - Verificación final: builds frontend/backend y reporte de estado.
 
 ## Status (hoy)
+
 - Implementación FE/BE completa; ajustes visuales hechos; falta actualizar README y registrar artefactos.
-- Builds: frontend build ok; backend build/tests pendientes de correr en esta sesión.
+- Builds: frontend build ok; backend build/tests ejecutados y probados correctamente.
+- Paginas con consumos y logicas funcionales probadas en la integración E2E del proyecto.
